@@ -7,19 +7,19 @@
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/nav_cop4610_cg"
+                    android:id="@+id/nav_class1_cg"
                     android:icon="@drawable/ic_class_grade"
                     android:title="Operating Systems" />
                 <item
-                    android:id="@+id/nav_cda3101_cg"
+                    android:id="@+id/nav_class2_cg"
                     android:icon="@drawable/ic_class_grade"
                     android:title="Computer Organization"/>
                 <item
-                    android:id="@+id/nav_cis4360_cg"
+                    android:id="@+id/nav_class3_cg"
                     android:icon="@drawable/ic_class_grade"
                     android:title="Computer Security"/>
                 <item
-                    android:id="@+id/nav_cop4342_cg"
+                    android:id="@+id/nav_class4_cg"
                     android:icon="@drawable/ic_class_grade"
                     android:title="Unix Tools"/>
             </group>
@@ -30,19 +30,19 @@
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/nav_cop4610_fe"
+                    android:id="@+id/nav_class1_fe"
                     android:icon="@drawable/ic_final_exam"
                     android:title="Operating Systems"/>
                 <item
-                    android:id="@+id/nav_cda3101_fe"
+                    android:id="@+id/nav_class2_fe"
                     android:icon="@drawable/ic_final_exam"
                     android:title="Computer Organization"/>
                 <item
-                    android:id="@+id/nav_cis4360_fe"
+                    android:id="@+id/nav_class3_fe"
                     android:icon="@drawable/ic_final_exam"
                     android:title="Computer Security"/>
                 <item
-                    android:id="@+id/nav_cop4342_fe"
+                    android:id="@+id/nav_class4_fe"
                     android:icon="@drawable/ic_final_exam"
                     android:title="Unix Tools"/>
             </group>

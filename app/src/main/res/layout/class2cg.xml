@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Assignments Grade(30%): "
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <EditText
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Quiz Average(10%): "
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <EditText
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test 1 Grade(30%): "
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <EditText
@@ -81,7 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Final Exam Grade(30%): "
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <EditText
@@ -99,9 +99,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:alpha=".6"
-        android:backgroundTint="@color/colorIndigo"
+        android:backgroundTint="@color/colorOrange"
         android:text="Calculate Grade"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="18sp" />
 
     <TextView
@@ -110,7 +110,7 @@
         android:layout_height="80sp"
         android:layout_marginTop="10dp"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold" />
 

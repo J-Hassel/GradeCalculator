@@ -98,7 +98,45 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
         FragmentManager fragmentManager = getSupportFragmentManager();
 
-        if(id == R.id.nav_cop4610_cg)
+        switch(id)
+        {
+            case R.id.nav_class1_cg:
+                fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS1cg()).commit();
+                break;
+
+            case R.id.nav_class2_cg:
+                fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS2cg()).commit();
+                break;
+
+            case R.id.nav_class3_cg:
+                fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS3cg()).commit();
+                break;
+
+            case R.id.nav_class4_cg:
+                fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS4cg()).commit();
+                break;
+
+            case R.id.nav_class1_fe:
+                fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS1fe()).commit();
+                break;
+
+            case R.id.nav_class2_fe:
+                fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS2fe()).commit();
+                break;
+
+            case R.id.nav_class3_fe:
+                fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS3fe()).commit();
+                break;
+
+            case R.id.nav_class4_fe:
+                fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS4fe()).commit();
+                break;
+
+            case R.id.nav_points_lost:
+                break;
+        }
+
+        /*if(id == R.id.nav_class1_cg)
         {
            /* getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorRed)));
             if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
@@ -106,25 +144,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Window window = getWindow();
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
                 window.setStatusBarColor(getResources().getColor(R.color.colorRedDark));
-            }*/
+            }
             fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS1cg()).commit();
         }
-        else if(id == R.id.nav_cda3101_cg)
+        else if(id == R.id.nav_class2_cg)
         {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS2cg()).commit();
         }
-        else if(id == R.id.nav_cis4360_cg)
+        else if(id == R.id.nav_class3_cg)
         {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS3cg()).commit();
         }
-        else if(id == R.id.nav_cop4610_cg)
+        else if(id == R.id.nav_class4_cg)
         {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS1cg()).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS4cg()).commit();
         }
         else if(id == R.id.nav_cop4610_fe)
         {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS1fe()).commit();
-        }
+        }*/
 
 
 
