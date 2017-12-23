@@ -1,11 +1,13 @@
 package com.example.gradecalculator;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -33,6 +35,10 @@ public class CLASS3cg extends Fragment
             public void onClick(View view)
             {
                 double grade;
+
+                InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+
                 EditText quizHomeworkET = (EditText) myView.findViewById(R.id.quizHomework);
                 EditText projectGradeET = (EditText) myView.findViewById(R.id.projectGrade);
                 EditText test1ET = (EditText) myView.findViewById(R.id.test1);

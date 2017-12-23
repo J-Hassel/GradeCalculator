@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
@@ -34,11 +35,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.addDrawerListener(toggle);
-        toggle.syncState();
+        final DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(
+                this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onClick(View view)
             {
                 fragmentManager.beginTransaction().replace(R.id.content_frame, new Home()).commit();
-                drawer.closeDrawer(GravityCompat.START);
+                drawerLayout.closeDrawer(GravityCompat.START);
             }
         });
     }
@@ -135,36 +136,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_points_lost:
                 break;
         }
-
-        /*if(id == R.id.nav_class1_cg)
-        {
-           /* getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorRed)));
-            if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-            {
-                Window window = getWindow();
-                window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-                window.setStatusBarColor(getResources().getColor(R.color.colorRedDark));
-            }
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS1cg()).commit();
-        }
-        else if(id == R.id.nav_class2_cg)
-        {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS2cg()).commit();
-        }
-        else if(id == R.id.nav_class3_cg)
-        {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS3cg()).commit();
-        }
-        else if(id == R.id.nav_class4_cg)
-        {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS4cg()).commit();
-        }
-        else if(id == R.id.nav_cop4610_fe)
-        {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS1fe()).commit();
-        }*/
-
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

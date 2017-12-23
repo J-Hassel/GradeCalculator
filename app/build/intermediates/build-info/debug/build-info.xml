@@ -2,13 +2,13 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="3.0.0"
-    timestamp="1514052185499"
+    timestamp="1514055403711"
     token="-904231451124295682"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -18,102 +18,85 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="23" />
     <task
         name="verifier"
-        duration="0" />
+        duration="13" />
 
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
     <artifact
         location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1514050601942"
+        timestamp="1514055403711"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1514051025378"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1514051698561"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1514051993966"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1514052185499"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />

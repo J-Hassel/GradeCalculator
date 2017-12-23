@@ -167,7 +167,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:alpha=".6"
-        android:backgroundTint="@color/colorIndigo"
+        android:backgroundTint="@color/colorOrange"
         android:text="Get Final Exam Grade"
         android:textColor="@color/white"
         android:textSize="18sp" />

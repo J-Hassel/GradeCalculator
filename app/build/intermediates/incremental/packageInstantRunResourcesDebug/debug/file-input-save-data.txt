@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Dec 23 13:03:05 EST 2017
+#Sat Dec 23 13:56:44 EST 2017
 210.set=ANDROID_RESOURCE
 282.file=/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/res/debug/resources-debug.ap_/res/anim/design_bottom_sheet_slide_out.xml
 14.set=ANDROID_RESOURCE
