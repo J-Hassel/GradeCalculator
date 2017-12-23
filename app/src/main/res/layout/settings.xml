@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="2"
+        tools:context=".GridXMLActivity">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_red"
+            android:layout_gravity=""
+            android:layout_margin="5dp"
+            app:backgroundTint="@color/colorRed" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_yellow"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:backgroundTint="@color/colorYellow" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_green"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:backgroundTint="@color/colorGreen" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_blue"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:backgroundTint="@color/colorBlue" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_orange"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp"
+            app:backgroundTint="@color/colorOrange" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_pink"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp"
+            app:backgroundTint="@color/colorPink" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_purple"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp"
+            app:backgroundTint="@color/colorPurple" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_indigo"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp"
+            app:backgroundTint="@color/colorIndigo" />
+    </GridLayout>
+
+
+</RelativeLayout>

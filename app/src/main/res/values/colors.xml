@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorIndigo">#3f51b5</color>
+    <color name="colorIndigoDark">#303F9F</color>
+    <color name="colorIndigoAccent">#9FA8DA</color>
+
+    <color name="colorRed">#f44336</color>
+    <color name="colorRedDark">#d32f2f</color>
+    <color name="colorRedAccent">#ef9a9a</color>
+
+    <color name="colorYellow">#ffeb3b</color>
+    <color name="colorYellowDark">#FBC02D</color>
+    <color name="colorYellowAccent">#FFF59D</color>
+
+    <color name="colorGreen">#4caf50</color>
+    <color name="colorGreenDark">#388E3C</color>
+    <color name="colorGreenAccent">#A5D6A7</color>
+
+    <color name="colorBlue">#2196f3</color>
+    <color name="colorBlueDark">#1976D2</color>
+    <color name="colorBlueAccent">#90CAF9</color>
+
+    <color name="colorPink">#e91e63</color>
+    <color name="colorPinkDark">#C2185B</color>
+    <color name="colorPinkAccent">#F48FB1</color>
+
+    <color name="colorOrange">#ff9800</color>
+    <color name="colorOrangeDark">#F57C00</color>
+    <color name="colorOrangeAccent">#FFCC80</color>
+
+    <color name="colorPurple">#9c27b0</color>
+    <color name="colorPurpleDark">#7B1FA2</color>
+    <color name="colorPurpleAccent">#CE93D8</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Class Grade Calculators">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_cop4610_cg"
+                    android:icon="@drawable/ic_class_grade"
+                    android:title="Operating Systems" />
+                <item
+                    android:id="@+id/nav_cda3101_cg"
+                    android:icon="@drawable/ic_class_grade"
+                    android:title="Computer Organization"/>
+                <item
+                    android:id="@+id/nav_cis4360_cg"
+                    android:icon="@drawable/ic_class_grade"
+                    android:title="Computer Security"/>
+                <item
+                    android:id="@+id/nav_cop4342_cg"
+                    android:icon="@drawable/ic_class_grade"
+                    android:title="Unix Tools"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Final Exam Calculators">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_cop4610_fe"
+                    android:icon="@drawable/ic_final_exam"
+                    android:title="Operating Systems"/>
+                <item
+                    android:id="@+id/nav_cda3101_fe"
+                    android:icon="@drawable/ic_final_exam"
+                    android:title="Computer Organization"/>
+                <item
+                    android:id="@+id/nav_cis4360_fe"
+                    android:icon="@drawable/ic_final_exam"
+                    android:title="Computer Security"/>
+                <item
+                    android:id="@+id/nav_cop4342_fe"
+                    android:icon="@drawable/ic_final_exam"
+                    android:title="Unix Tools"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Other Calculators">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_points_lost"
+                    android:icon="@drawable/ic_points_lost"
+                    android:title="Points Lost" />
+            </group>
+        </menu>
+    </item>
+
+   </menu>
