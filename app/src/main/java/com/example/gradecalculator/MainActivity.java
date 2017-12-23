@@ -1,7 +1,6 @@
 package com.example.gradecalculator;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
@@ -112,11 +111,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         else if(id == R.id.nav_cda3101_cg)
         {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CDA3101cg()).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS2cg()).commit();
         }
         else if(id == R.id.nav_cis4360_cg)
         {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CIS4360cg()).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new CLASS3cg()).commit();
         }
         else if(id == R.id.nav_cop4610_cg)
         {
@@ -139,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         getSupportActionBar().setTitle(title);
     }
 
-    public void changeColor(String s)
+    public void setActionBarColor(String s)
     {
          if(s == "Red")
         {

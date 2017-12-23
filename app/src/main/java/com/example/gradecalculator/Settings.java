@@ -45,8 +45,7 @@ public class Settings extends AppCompatActivity
             @Override
             public void onClick(View view)
             {
-
-               // MainActivity.changeColor("Red");
+  //              ((MainActivity) getActivity()).setActionBarColor("red");
             }
         });
 
