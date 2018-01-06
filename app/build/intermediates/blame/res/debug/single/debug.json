@@ -1628,6 +1628,10 @@
         "source": "/home/jon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fa7ee2464b6c5e588c0070b424baf102/res/layout/abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/res/merged/debug/layout_percent_lost.xml.flat",
+        "source": "/home/jon/AndroidStudioProjects/GradeCalculator2/app/src/main/res/layout/percent_lost.xml"
+    },
+    {
         "merged": "/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
         "source": "/home/jon/AndroidStudioProjects/GradeCalculator2/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
     },
